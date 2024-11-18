@@ -32,16 +32,8 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
-    method: GET
-    expectStatus: 200
-
   - id: manhwa-vikarna-top
-    name: manhwa.vikarna.top
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://manhwa.vikarna.top'
+    name: 阿晴
+    url: 'https://manhwa.vikarna.top/'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
