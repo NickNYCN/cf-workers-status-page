@@ -18,7 +18,7 @@ monitors:
   - id: lk-vikarna-top
     name: 阿晴
     description: '查看服务器是否在线'
-    url: 'https://op.vikarna.top'
+    url: 'https://lk.vikarna.top'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
     linkable: true # allows the title to be a link, default=true
