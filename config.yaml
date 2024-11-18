@@ -34,7 +34,7 @@ monitors:
 
   - id: lk-vikarna-top
     name: 阿晴
-    url: 'https://lk.vikarna.top'
+    url: 'https://op.vikarna.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
