@@ -37,3 +37,10 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: manhwa-vikarna-top
+    name: manhwa.vikarna.top
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://manhwa.vikarna.top'
+    method: GET
+    expectStatus: 502
