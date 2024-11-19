@@ -15,10 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: nav-vikarna-top
+  - id: pan-frp-vikarna-top
     name: 阿晴
     description: '查看服务器是否在线'
-    url: 'https://nav.vikarna.top'
+    url: 'https://pan.frp.vikarna.top/'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
     linkable: true # allows the title to be a link, default=true
