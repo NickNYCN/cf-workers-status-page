@@ -12,7 +12,7 @@ settings:
   monitorLabelNoData: '无数据'
   dayInHistogramNoData: '无数据'
   dayInHistogramOperational: '一切正常'
-  dayInHistogramNotOperational: '断线次数' # xx incident(s) recorded
+  dayInHistogramNotOperational: '次断线' # xx incident(s) recorded
 
 monitors:
   - id: dl-vikarna-top
