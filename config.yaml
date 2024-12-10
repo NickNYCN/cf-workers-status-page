@@ -1,18 +1,18 @@
 settings:
-  title: 'Status Page'
+  title: '查看服务器状态'
   url: 'https://cf-workers-status-page-production.2240001733.workers.dev/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  allmonitorsOperational: '所有服务器正常运行'
+  notAllmonitorsOperational: '并非所有服务器都正常运行'
+  monitorLabelOperational: '正常运行'
+  monitorLabelNotOperational: '离线'
+  monitorLabelNoData: '无数据'
+  dayInHistogramNoData: '无数据'
+  dayInHistogramOperational: '一切正常'
+  dayInHistogramNotOperational: '未运行' # xx incident(s) recorded
 
 monitors:
   - id: dl-vikarna-top
